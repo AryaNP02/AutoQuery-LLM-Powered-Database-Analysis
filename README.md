@@ -10,13 +10,12 @@ The application provides schema exploration, data sampling, and natural language
 ## Features
 - **SQL Database Support**: Explore table names, schemas, and query data using natural language.
 - **MongoDB Support**: Explore collections, view sample documents, and query data using natural language.
-- **Retry Mechanism**: Handles transient errors with retry logic for both SQL and MongoDB queries.
+
 
 ## Installation
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd genAI
    ```
 2. Install dependencies:
    ```bash
@@ -35,13 +34,12 @@ Make sure to keep this file secure and do not share it publicly.
 ## Usage
 Run the application:
 ```bash
-streamlit run new_app.py
+streamlit run app.py
 ```
 
 ## File Structure
-- `new_app.py`: Main entry point for the application.
+- `main.py`: Main entry point for the application.
 - `db_utils.py`: Contains database-related utility functions.
-- `config.json`: Configuration file for storing API keys and other settings.
 - `requirements.txt`: List of dependencies for the application.
 
 ## Requirements
